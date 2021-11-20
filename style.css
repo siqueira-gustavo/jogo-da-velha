@@ -1,0 +1,61 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;                                          /* Altura total da tela */
+    background: linear-gradient(to left top, #20b69a, rgb(200, 255, 239));
+}
+
+h1 {
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 0 0 5px #000;
+}
+
+.container {
+    margin: 0 auto;
+    width: 450px;                                          /* Largura do container */
+    height: 495px;                                         /* Altura do container */
+    border: 10px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, #d16ba5, #69bff8, #5ffbf1);
+    background: #fff;
+    box-shadow: 0px 0px 10px #000;
+}
+
+.quadrado {
+    text-align: center;
+    width: 50px;
+    background: #eee;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 40px;
+    font-size: 60px;
+    margin: 5px;
+    cursor: pointer;
+    color: #eee;
+    border: 2.5px solid #000;
+    transition: 1s;  
+}
+
+.quadrado:hover {
+    background: #000;
+    color: #ccc;
+    border: 2.5px solid #ccc;
+}
+
+.jogador,
+.vencedor {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background: #eee;
+    cursor: pointer;
+}
+button:hover {
+    background: #ccc;
+}
