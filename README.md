@@ -4,6 +4,10 @@ Jogo da Velha é um jogo de tabuleiro com 9 casas, onde o jogador ganha se preen
 
 ![text](./velha.png "Jogo da Velha")
 
+## Como acessar
+
+[Clique aqui](https://siqueira-gustavo.github.io/jogo-da-velha) para acessar
+
 ## Descrição do Projeto
 
 Projeto desenvolvido para o bootcamp **JavaScript Game Developer**, como requisito para a matéria de **Criando seu próprio jogo da velha com HTML e Javascript**.
